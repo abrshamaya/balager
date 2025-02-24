@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,13 +6,13 @@
     <title>Balagger</title>
     <meta name="description" content="Experience modern gastronomy at Balagger, San Francisco's premier fine dining destination." />
     <meta name="author" content="Balagger Restaurant" />
-    <meta property="og:image" content="/og-image.png" />
-    <script type="module" crossorigin src="./assets/index-Chgzp86Q.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-lJ_Rg211.css">
+    <meta property="og:image" content="./og-image.png" /> <!-- Changed to relative path -->
+    <script type="module" src="./assets/index-Chgzp86Q.js"></script> <!-- Removed crossorigin -->
+    <link rel="stylesheet" href="./assets/index-lJ_Rg211.css"> <!-- Removed crossorigin -->
   </head>
 
   <body>
     <div id="root"></div>
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module" defer></script> <!-- Added defer -->
   </body>
 </html>
